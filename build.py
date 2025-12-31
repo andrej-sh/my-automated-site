@@ -1,6 +1,6 @@
 # build.py
 import shutil, os
-# Очищаем папку build (если есть)
+# Очищаем папку build (если есть)1
 shutil.rmtree('build', ignore_errors=True)
 os.makedirs('build')
 # Копируем и изменяем HTML
